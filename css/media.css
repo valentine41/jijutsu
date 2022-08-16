@@ -1,0 +1,151 @@
+
+@media(max-width: 992px){
+  
+  .films .films-block{
+    
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 47px;
+    
+  } 
+  
+  .films .films-box{
+    margin-top: 0;
+  }
+  
+}
+
+@media (max-width: 700px) {
+  .game .end-block{
+    grid-template-areas: 
+    "left1  left1"
+    "left1  left1"
+    "left2  left3" 
+    "left4  left5"
+    ;
+    gap: 30px;
+}
+}
+
+@media(max-width: 650px){
+  .intro h1{
+    font-size: 40px;
+  }
+  
+  .intro{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+} 
+
+@media(max-width: 600px){
+  
+  .video{
+    text-align: center;
+  }
+  
+  .video img{
+    width: 100%;
+  }
+  
+  .video a{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .game .end-block{
+    grid-template-areas:
+    "left4  left5" 
+    "left1  left1"
+    "left1  left1"
+    "left2  left3" 
+    
+    ;
+    gap: 30px;
+}
+  
+}
+
+@media(max-width: 550px){
+    
+  .header .header-nav .menu{
+ flex-direction: column;
+justify-content: center;
+  align-items: center;
+}
+  
+  .header .header-nav .logo{
+    margin-top: 10px;
+  }
+  
+  .header .menu ul a{
+    padding: 20px 12px
+  }
+  
+  .header .poster{
+    padding: 5px 0;
+  }
+  
+  .header .poster i{
+    font-size: 25px;
+  }
+  
+  .header .poster p{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  
+}
+
+@media(max-width: 500px){
+  
+  .films .films-box .text p{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+
+@media(max-width: 450px){
+  
+  .films .films-block{
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+@media (max-width: 400px) {
+    .header .header-nav .logo img{
+        width: 80px;
+    }
+    
+    .header .menu ul a{
+        font-size: 14px;
+    }
+    
+    .intro .intro-list{
+      flex-direction: column;
+      margin-top: 50px;
+      
+  }
+  
+  .intro .intro-link{
+    margin-right: 0;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+  .video p{
+    font-size: 16px;
+    
+  }
+  
+  .video{
+    background: rgba(0, 0, 0, 0.496);
+  }
+
+}
